@@ -1,59 +1,63 @@
-# 🧠 Electra Shop - Admin (Sanity CMS)
+# 🛒 Electra Shop - Frontend
 
-This is the **Admin Panel (Content Management System)** for Electra Shop, built using Sanity.
-It allows managing products dynamically without modifying frontend code.
+A modern **E-commerce web application frontend** built using React and Vite.
+This project provides a clean, responsive UI for browsing products and interacting with an online store.
 
-
+---
 
 ## 🚀 Tech Stack
 
-* Sanity.io
-* JavaScript
-* Node.js
+* React.js
+* Vite
+* CSS
+* Axios (for API calls)
+* Sanity CMS (for dynamic product data)
 
-
+---
 
 ## ✨ Features
 
-* ➕ Add new products
-* ✏️ Edit existing products
-* 🗑️ Delete products
-* 🖼️ Upload product images
-* 📦 Manage product categories
-* ⚡ Real-time content updates
+* 🛍️ Product listing page
+* 🔍 Search functionality
+* 📄 Product details view
+* 🛒 Add to cart (if implemented)
+* 📱 Fully responsive design
+* ⚡ Fast performance with Vite
 
+---
 
+## 🔗 Backend / CMS
 
-## 🔗 Connected Frontend
+This frontend is connected with:
+👉 **Electra Shop Admin (Sanity CMS)**
 
-This CMS is connected to:
-👉 **Electra Shop Frontend (React App)**
-
--
+---
 
 ## 📂 Project Structure
 
 ```
-schemas/
- ├── product.js
- ├── category.js
-
-sanity.config.js
+src/
+ ├── components/
+ ├── pages/
+ ├── assets/
+ ├── App.jsx
+ ├── main.jsx
 ```
 
+---
 
 ## ⚙️ Installation & Setup
 
 1. Clone the repository:
 
 ```
-git clone https://github.com/akshaypardeshi/electra-shop-admin.git
+git clone https://github.com/akshaypardeshi/electra-shop-frontend.git
 ```
 
 2. Navigate to project:
 
 ```
-cd electra-shop-admin
+cd electra-shop-frontend
 ```
 
 3. Install dependencies:
@@ -62,32 +66,31 @@ cd electra-shop-admin
 npm install
 ```
 
-4. Start Sanity Studio:
+4. Run the project:
 
 ```
 npm run dev
 ```
 
-
-
-## 🌐 Sanity Studio
-
-After running:
-👉 Open http://localhost:3333
-
-
+---
 
 ## 📸 Screenshots
 
-(Add admin panel screenshots here)
+(Add your project screenshots here)
 
+---
 
+## 🌐 Live Demo
+
+(Add deployed link here)
+
+---
 
 ## 👨‍💻 Author
 
 Akshay Pardeshi
 
-
+---
 
 ## ⭐ If you like this project
 
