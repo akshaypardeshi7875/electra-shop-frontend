@@ -1,16 +1,94 @@
-# React + Vite
+# 🧠 Electra Shop - Admin (Sanity CMS)
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+This is the **Admin Panel (Content Management System)** for Electra Shop, built using Sanity.
+It allows managing products dynamically without modifying frontend code.
 
-Currently, two official plugins are available:
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
 
-## React Compiler
+## 🚀 Tech Stack
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+* Sanity.io
+* JavaScript
+* Node.js
 
-## Expanding the ESLint configuration
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+
+## ✨ Features
+
+* ➕ Add new products
+* ✏️ Edit existing products
+* 🗑️ Delete products
+* 🖼️ Upload product images
+* 📦 Manage product categories
+* ⚡ Real-time content updates
+
+
+
+## 🔗 Connected Frontend
+
+This CMS is connected to:
+👉 **Electra Shop Frontend (React App)**
+
+-
+
+## 📂 Project Structure
+
+```
+schemas/
+ ├── product.js
+ ├── category.js
+
+sanity.config.js
+```
+
+
+## ⚙️ Installation & Setup
+
+1. Clone the repository:
+
+```
+git clone https://github.com/akshaypardeshi/electra-shop-admin.git
+```
+
+2. Navigate to project:
+
+```
+cd electra-shop-admin
+```
+
+3. Install dependencies:
+
+```
+npm install
+```
+
+4. Start Sanity Studio:
+
+```
+npm run dev
+```
+
+
+
+## 🌐 Sanity Studio
+
+After running:
+👉 Open http://localhost:3333
+
+
+
+## 📸 Screenshots
+
+(Add admin panel screenshots here)
+
+
+
+## 👨‍💻 Author
+
+Akshay Pardeshi
+
+
+
+## ⭐ If you like this project
+
+Give it a star on GitHub ⭐
